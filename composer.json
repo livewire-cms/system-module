@@ -1,0 +1,27 @@
+{
+    "name": "wpjscc/system-module",
+    "description": "",
+    "type":"laravel-module",
+    "authors": [
+        {
+            "name": "wpjscc",
+            "email": "wpjscc@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "require":{
+        "wpjscc/backend-module":"dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\System\\": ""
+        }
+    }
+}
